@@ -74,7 +74,7 @@ void opcontrol() {
 	Motor scoreMotor(scoreMotorPort,scoreMotorCartridge,MotorUnits::degrees);   
 
 	intakeMotor.set_brake_mode(E_MOTOR_BRAKE_HOLD);
-	scoreMotor.set_brake_mode(E_MOTOR_BRAKE_BRAKE);
+	//scoreMotor.set_brake_mode(E_MOTOR_BRAKE_BRAKE);
 
 	//Pneumatics
 	adi::Pneumatics tongue(tonguePistonPort,tonguePistonStartExtended);
